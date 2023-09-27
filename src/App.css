@@ -1,0 +1,308 @@
+body {
+  margin: 0;
+  font-family:Libre Baskerville;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+nav{
+  height:15%;
+  background-image: url('https://img.freepik.com/premium-photo/search-bar-icon-search-3d-render-minimal-design-black-background_41204-14026.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid white;
+  margin:0 3rem 0 2rem;
+}
+.navbar-brand{
+  color:white;
+    font-size: 4rem;
+    font-family: Kenia;
+    padding:0px 5px 10px 15px;
+    margin: 20px 0 0 0;
+    background: linear-gradient(to right, aqua,white,aqua);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.home,.contacts,.myworks,.skills,.studies{
+  height: 100vh;
+  width: 100%;
+  padding:7% 10px 10px 10px;
+  background-image: url('https://img.freepik.com/premium-photo/search-bar-icon-search-3d-render-minimal-design-black-background_41204-14026.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-link{
+  font-size: 1rem;
+  cursor: pointer;
+  padding:5px;
+  margin-top: 2rem;
+  margin-right: 20px; 
+  display:inline-block;
+  color: white; 
+}
+.nav-link:hover{
+  color:white;
+}
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2.5px;
+  background: white;
+  transition: width .3s; 
+  
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+.circular--portrait { 
+  position: relative;
+   width: 20rem; 
+   height: 21rem; 
+   overflow: hidden; 
+   border-radius: 50%; 
+  margin:8%;
+} 
+.circular--portrait img { width: 100%;}
+.about{
+  color:white;
+  font-family: Gloock;
+  width: 40%;
+  height: fit-content;
+  margin: 10% 0% 0% 0%;
+}
+.about h1{
+  line-height: 1.6;
+}
+.about p{
+  font-family: Lobster;
+  font-size: 3.5rem;
+  color:orangered;
+}
+span{
+  color:crimson;
+}
+.contact{
+  padding:20px;
+  color:white;
+  margin: 90px;
+  width: fit-content;
+  float:left;
+}
+.about-me{
+  float:right;
+  width:50%;
+  color:white;
+  line-height: 2.2;
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: larger;
+  margin: 10rem 5rem 0 0;
+  padding:20px;
+  font-style: italic;
+  text-align: justify;
+  box-shadow: -9px 5px 5px black;
+}
+i{
+  padding:10px;
+  color:white;
+  font-size: 20px;
+}
+.social-icons i:hover{
+  filter:invert(1);
+}
+.social-icons i{
+  font-size: 30px;
+  margin:15px;
+}
+.btn{
+  margin:3rem 0 0 5rem;
+}
+ul,.social-icons{
+  margin-left: 2rem;
+}
+.contact h1{
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-shadow: -6px 3px 0 black;
+}
+#studies{
+  margin:auto;
+  width: fit-content;
+  font-size: 40px;
+  color:white;
+  padding:20px;    
+  text-shadow: -6px 3px 0 black;
+}
+.ug,.sec,.high{
+  color:white;
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+  padding:20px;
+  border-bottom: 1px solid white;
+}
+h4{
+  color:darksalmon;
+}
+#skills{
+  color:white;    
+}
+.tab{
+  margin-right: 20%;
+  text-shadow: -6px 3px 0 black;
+}
+.tabs{
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  padding:10px;
+  margin:2rem 0rem 3rem 4rem;  
+  font-family: Black Ops One;
+}
+.tabs:hover,.active{    
+  border-bottom: 2px solid sandybrown;
+}
+.active{    
+  border-bottom: 2px solid sandybrown;
+  color:sandybrown;
+}
+.hide-content{
+  display: none;
+}
+.show-content{
+  display: block;
+}
+.program li{
+  padding:10px;
+  font-family: Josefin Sans;
+  font-size: 20px;
+}
+.projects li{
+  color:salmon;
+}
+.projects li{
+  list-style: none;
+  font-family: Josefin Sans;
+  font-size: 25px;
+}
+.projects p{    
+  font-family:Cormorant Garamond;
+  font-size: 20px;
+  color:white;
+  margin-left: 20px;
+}
+.note{
+  font-family: Righteous;
+  font-size: 20px;
+  width:45%;
+  line-height: 2;
+  margin:10% 0 0 0;
+  font-style: italic;
+  text-align: justify;
+  border:2px solid white;
+  height: fit-content;
+  padding:30px;
+  border-radius: 0rem 5rem ;
+  box-shadow: -9px 5px 5px black;
+}
+#works{
+  text-shadow: -6px 3px 0 black;
+  padding: 20px;
+  margin:auto;
+  width: fit-content;
+  font-size: 40px;
+  color:white;   
+}
+.work-list{
+  width: fit-content;
+  margin: auto 0 0 8%;
+}
+.work{
+  border-radius: 5%;
+  position: relative;
+  overflow: hidden;
+  margin:2rem 0 0 20px;
+}
+.work img{
+  width: 400px;
+  height: 350px;
+  transition: transform 0.5s; 
+}
+.layer{
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(rgba(255,255,255,0.6), rgb(129, 249, 1) );
+  border-radius: 10px;
+  position: absolute;
+  left:0;
+  bottom:0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+  color:black;
+}
+.layer h3,.layer p{
+  width:80%;
+}
+.layer h3{
+  font-size:20px;
+  margin-bottom: 20px;    
+  font-family: Paytone One;
+}
+.layer p{
+  font-family: Courgette;
+  font-size:15px;
+}
+.layer a i{
+  color:black;
+  font-size: 20px;
+}
+.layer a{
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 40%;
+  padding:7px;
+}
+.layer a:hover i{
+  transform: scale(1.1);
+}
+.work:hover img{
+  transform: scale(1.1);
+}
+.work:hover .layer{
+  height: 100%;
+  transition: height 0.5s;
+}
+.myworks .btn{
+  margin: 3rem 0 0 45%;
+  border: 1px solid rgb(129, 249, 1);
+  color:rgb(129, 249, 1);
+}
+.myworks .btn:hover{
+  background-color:rgb(129, 249, 1);
+  color:black;
+}
+.MoreWorks{
+  background-image: url('https://img.freepik.com/premium-photo/search-bar-icon-search-3d-render-minimal-design-black-background_41204-14026.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+}
+.MoreWorks .work img{
+  width: 300px;
+  height: 250px;
+  transition: transform 0.5s; 
+}
+.MoreWorks .layer a{
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 40%;
+}
+.MoreWorks .layer a i{
+  color:black;
+  font-size: 15px;
+}
