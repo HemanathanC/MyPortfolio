@@ -4,12 +4,13 @@ import pdf from './images/HemaResume.pdf'
 function Contacts() {
     return (
       <div className='contacts'>
-        <div className='about-me'>
-          <p>Seeking a challenging position in a reputable organization to expand my learning, knowledge, 
-            and skills. To secure a responsible career opportunity to fully utilize my training and skills, 
-            while making a significant contribution to the success of the company.</p>
-        </div>
-        <div className='contact'>
+        <div className='d-lg-flex justify-content-center'>
+          <div className='about-me'>
+            <p>Seeking a challenging position in a reputable organization to expand my learning, knowledge, 
+              and skills. To secure a responsible career opportunity to fully utilize my training and skills, 
+              while making a significant contribution to the success of the company.</p>
+          </div>
+          <div className='contact'>
           <h1>Contact Me</h1>
           <ul><i class="fa-solid fa-envelope"></i>hemanathanc7@gmail.com</ul>
           <ul><i class="fa-solid fa-phone"></i>+91 8524998472</ul>
@@ -20,6 +21,7 @@ function Contacts() {
                       <a href="https://github.com/HemanathanC" target="_blank"><i class="fa-brands fa-github"></i></a>
                   </div>
                   <a href={pdf} download="HemanathanC" target="_blank"class="btn btn-outline-primary">Download CV</a>
+          </div>
         </div>
       </div>
     )

@@ -8,7 +8,7 @@ function Works() {
   return (
     <div className='myworks'>
         <p id="works">WORKS</p>
-        <div className="work-list d-flex flex-wrap">
+        <div className="work-list d-lg-flex flex-wrap">
             <div className="work">
                 <img src={feedback} alt="Student Feedback System"/>
                 <div className="layer">

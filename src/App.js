@@ -1,19 +1,27 @@
 import { useState } from 'react';
 import { Routes, Route, HashRouter } from 'react-router-dom'
 import './App.css';
+import './Mobile.css'
 import Home from './components/Home'
 import Studies from './components/Studies'
 import Skills from './components/Skills'
 import Works from './components/Works'
 import Contact from './components/Contacts'
 import MoreWorks from './components/MoreWorks'
+import $ from 'jquery'
 
 function App() {
+
+  const mediaQuery = window.matchMedia('(max-width:600px)');
 
   const [tabs,setTabs] = useState(1);
 
   const tabHandler = (id) =>{
     setTabs(id);
+    if(mediaQuery.matches){
+      $('.navbar-toggler').click();
+    }
+    
   }
 
   return (
@@ -21,9 +29,13 @@ function App() {
     <Routes>
       <Route exact path='/' element={
     <div className="App">
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark">
         <h1 class="navbar-brand">Hemanathan</h1>
-        <div class="collapse navbar-collapse">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-aria-controls='navbarToggler'
+      aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
           <a class="nav-link" onClick={()=>tabHandler(1)}>HOME</a>
@@ -43,6 +55,7 @@ function App() {
         </ul>
         </div>
 			</nav>
+      
       <div className='tabContent'>
         {(()=>{
           switch(tabs){

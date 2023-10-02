@@ -10,8 +10,13 @@ function Skills() {
     setActive(value);
   }
   return (
-    <div id='skills' className="skills">
-      <div className="d-flex justify-content-around">
+    <div className="skills">
+      <div className="d-lg-flex justify-content-around">
+        <div className="note">
+          <p>I enjoy taking complex problems and turning them into simple and beautiful interface designs and outputs.
+             I also love logic and structure of coding and always strive to write elegant and efficient code. 
+             Im good at HTML, CSS, javascript. I spend my free time to learn programming languages to uprgrade my skills by myself. </p>
+        </div>
         <div>
           <div className="d-flex justify-content-end tab">
             <ul className={active === 1 ? "tabs active" : "tabs"}  onClick={()=>TabHandler(1)}>Programming</ul>
@@ -40,11 +45,6 @@ function Skills() {
               <p>2. Inventory Management System</p>
             </div>
           </div> 
-        </div>
-        <div className="note">
-          <p>I enjoy taking complex problems and turning them into simple and beautiful interface designs and outputs.
-             I also love logic and structure of coding and always strive to write elegant and efficient code. 
-             Im good at HTML, CSS, javascript. I spend my free time to learn programming languages to uprgrade my skills by myself. </p>
         </div>
       </div> 
     </div>

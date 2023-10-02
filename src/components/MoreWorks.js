@@ -10,7 +10,7 @@ function MoreWorks() {
   return (
       <div className='MoreWorks'>
             <p id="works">WORKS</p>
-            <div className="work-list d-flex flex-wrap">
+            <div className="work-list d-lg-flex flex-wrap">
                 <div className="work">
                     <img src={feedback} alt="Student Feedback System"/>
                     <div className="layer">
@@ -50,7 +50,7 @@ function MoreWorks() {
                         <p>Store the details of police, criminals and their crimes using HTML, Javascript, Java Servlet, SQL</p>
                         <a href="https://github.com/HemanathanC/CriminalDatabase" target='_blank'><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
-                </div>    
+                </div>  
             </div>                  
         </div>
   )
