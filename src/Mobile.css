@@ -13,9 +13,11 @@
     .home,.contacts,.myworks,.skills,.studies{
         height: 100%;
         width: 100%;
+        margin-top:5%;
       }
       .home{
         padding:10%;
+        margin-top:10%;
       }
     nav{
         height:15%;
@@ -24,11 +26,11 @@
       }
       .navbar-brand{
         color:white;
-        font-size: 3rem;
+        font-size: 2rem;
         font-family: Kenia;
         padding:0px 5px 10px 15px;
         margin: 20px 0 0 0;
-        background: linear-gradient(to right, aqua,white,aqua);
+        background: linear-gradient(to right, orange,white,limegreen);
                 -webkit-text-fill-color: transparent;
                 -webkit-background-clip: text;
       }
@@ -42,26 +44,11 @@
         display:inline-block;
         color: white; 
       }
-      .nav-link:hover{
-        color:white;
-      }
-      .nav-link::after {
-        content: '';
-        display: block;
-        width: 0;
-        height: 2.5px;
-        background: white;
-        transition: width .3s; 
-        
-      }
-      .nav-link:hover::after {
-        width: 100%;
-      }
     .home img{
       display: block;
       margin:auto;
-      height: 230px;
-      width: 230px;
+      height: 180px;
+      width: 180px;
     }
     .about{
         color:white;
@@ -74,7 +61,7 @@
       }
       .about h1{
         line-height: 1.6;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
       .about p{
         font-family: Lobster;
@@ -83,16 +70,23 @@
         font-size: 2rem;
       }
       span{
-        color:crimson;
+        color:aqua;
       }
-      #studies,#skills{
-        font-size: 30px;
+      #studies{
+        font-size: 20px;
       }
       .ug,.sec,.high{
-        font-size: 15px;
+        font-size: 12px;
+        border:none;
+      }
+      .ug:after,.sec:after,.high:after {
+        content: '';
+        display: block;
+        height: 1px;
+        background: white;
       }
       h4{
-        font-size: 17px;
+        font-size: 14px;
         color:darksalmon;
       }
       .skills{
@@ -104,7 +98,7 @@
       .tabs{
         cursor: pointer;
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         padding:10px;
         margin:2rem 0rem 3rem 4rem;  
         font-family: Black Ops One;
@@ -127,38 +121,106 @@
         font-size: 15px;
       }
       .note{
-        font-size: 15px;
+        font-size: 11px;
         width:fit-content;
         margin:5%;
         padding:25px;
       }
       .contact{
         padding:10px;
-        width: fit-content;
+        width: max-content;
         margin-left:30px;
+        margin-top: 3rem;
       }
       .about-me{
         width:fit-content;
-        font-size: smaller;
+        font-size: 11px;
         margin:2rem;
       }
       i{
         padding:10px;
         color:white;
+        font-size: 13px;
+      }
+      .social-icons a i{
+        font-size: 20px;
+        margin:20px;
+        padding: 0;
+      }
+      .btn{
+        display: block;
+        margin:1rem auto;
+        width: fit-content;
+      }
+      ul{
+        margin: 10px;
         font-size: 15px;
       }
       .social-icons i{
+        margin: 0;
         font-size: 20px;
-        margin:15px;
-      }
-      .btn{
-        margin:0 0 0 5rem;
-      }
-      ul,.social-icons{
-        margin-left: 2rem;
       }
       .contact h1{
         margin-bottom: 2rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
+      }
+      #works{
+        font-size: 25px; 
+      }
+      .work-list{
+        width: fit-content;
+        margin: auto 0 0 8%;
+      }
+      .work{
+        border-radius: 5%;
+        position: relative;
+        overflow: hidden;
+        margin:2rem 0 0 20px;
+      }
+      .work img{
+        width: 250px;
+        height: 200px;
+      }
+      .layer{
+        font-size: 10px;
+      }
+      .layer h3,.layer p{
+        width:80%;
+      }
+      .layer h3{
+        font-size:15px;
+        margin-bottom: 20px;    
+        font-family: Paytone One;
+      }
+      .layer p{
+        font-family: Courgette;
+        font-size:10px;
+      }
+      .layer a i{
+        color:black;
+        font-size: 13px;
+      }
+      .layer a{
+        margin-top: 20px;
+        background: #fff;
+        border-radius: 40%;
+        padding:0px;
+      }
+      .myworks .btn{
+        margin:3rem auto auto;
+        font-size: 13px;
+      }
+      .MoreWorks .work img{
+        width: 250px;
+        height: 200px;
+      }
+      .MoreWorks .layer a{
+        margin-top: 20px;
+        background: #fff;
+        border-radius: 40%;
+      }
+      .MoreWorks .layer a i{
+        color:black;
+        font-size: 15px;
       }
   }

@@ -18,7 +18,7 @@ function Skills() {
              Im good at HTML, CSS, javascript. I spend my free time to learn programming languages to uprgrade my skills by myself. </p>
         </div>
         <div>
-          <div className="d-flex justify-content-end tab">
+          <div className="d-lg-flex justify-content-end tab">
             <ul className={active === 1 ? "tabs active" : "tabs"}  onClick={()=>TabHandler(1)}>Programming</ul>
             <ul className={active === 2 ? "tabs active" : "tabs"} onClick={()=>TabHandler(2)}>Projects</ul>
           </div>
