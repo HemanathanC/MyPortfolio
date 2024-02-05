@@ -14,7 +14,7 @@ function App() {
 
   const mediaQuery = window.matchMedia('(max-width:600px)');
 
-  const [tabs,setTabs] = useState(4);
+  const [tabs,setTabs] = useState(1);
 
   const tabHandler = (id) =>{
     setTabs(id);
