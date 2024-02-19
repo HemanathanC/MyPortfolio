@@ -14,7 +14,7 @@ function Works() {
                 <div className="layer">
                     <h3>Student Feedback System</h3>
                     <p>Automate feedback process for teachers using Python Flask, HTML, Javascript, SQL</p>
-                    <a href="images/IOT Project.pptx" download><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/HemanathanC/StudentFeedbackSystem" download target='blank'><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div className="work">
@@ -22,7 +22,7 @@ function Works() {
                 <div className="layer">
                     <h3>Inventory Management System</h3>
                     <p>Tracking inventory levels, orders, sales and deliveries using Python Flask, HTML, Javascript, SQL</p>
-                    <a href="images/Paper piano doc.docx.pdf" download><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/HemanathanC/InventoryManagementSystem" download target='blank'><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div className="work">
@@ -30,7 +30,7 @@ function Works() {
                 <div className="layer">
                     <h3>Hospital Management System</h3>
                     <p>Store and Manage patient's and doctor's details using HTML, Javascript, Java Servlet ,SQL</p>
-                    <a href="images/ML Project(Age and Gender Identification).docx.pdf" download><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/HemanathanC/HospitalDatabase" download target='blank'><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div> 
         </div>
